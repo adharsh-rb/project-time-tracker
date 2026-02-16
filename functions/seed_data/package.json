@@ -1,0 +1,1 @@
+{ "name": "seed-data", "version": "1.0.0", "dependencies": { "zcatalyst-sdk-node": "latest" } }
