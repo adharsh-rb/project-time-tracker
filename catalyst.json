@@ -1,0 +1,13 @@
+{
+    "project_id": "YOUR_PROJECT_ID",
+    "project_name": "project-time-tracker",
+    "functions": [
+        { "name": "project_service", "type": "advancedio", "stack": "node18", "path": "./functions/project_service" },
+        { "name": "member_service", "type": "advancedio", "stack": "node18", "path": "./functions/member_service" },
+        { "name": "task_service", "type": "advancedio", "stack": "node18", "path": "./functions/task_service" },
+        { "name": "timelog_service", "type": "advancedio", "stack": "node18", "path": "./functions/timelog_service" },
+        { "name": "seed_data", "type": "advancedio", "stack": "node18", "path": "./functions/seed_data" },
+        { "name": "user_info", "type": "advancedio", "stack": "node18", "path": "./functions/user_info" }
+    ],
+    "client": { "path": "./client/app/dist" }
+}
